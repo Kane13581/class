@@ -1,17 +1,20 @@
 <template>
-  <div id="nav">
+  <div id="nav" class="bg-home-background min-h-screen bg-local bg-cover">
     <Header />
-  </div>
   <router-view/>
+    <Footer />
+  </div>
 </template>
 
 <script>
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 export default {
   name: "App",
   components: {
-    Header
+    Header,
+    Footer,
   }
 }
 
