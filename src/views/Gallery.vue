@@ -9,11 +9,9 @@
 </div>
 </template>
 
-<!--<div class="bg-rose-300 ...">-->
-<!--<img class="object-contain h-48 w-full ...">-->
-<!--</div>-->
 
 <script>
+
 export default {
   name: "Gallery",
   computed: {
