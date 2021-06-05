@@ -16,7 +16,7 @@
     <div>
       <div v-if="showF" class="text-2xl text-white">F</div>
       <div v-if="showM" class="text-2xl text-white p-4 py-12">
-          <div v-for="(service, index) in servicesM" :key="index">
+          <div class="flex justify-center font-serif" v-for="(service, index) in servicesM" :key="index">
             {{ `${service.service} - ${service.price}` }}
           </div>
       </div>
