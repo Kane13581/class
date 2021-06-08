@@ -1,8 +1,8 @@
 export default {
-    services1: [
+    services2: [
         {
             service: "Tuns Barbati",
-            price: "35 Lei"
+            price: "36 Lei"
         },
         {
             service: "Aranjat Barba",
