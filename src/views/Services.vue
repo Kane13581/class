@@ -67,7 +67,7 @@
              {{ `${service.service} - ${service.price}` }}
           </div>
           </div>
-          <button @click="showMarasti" class="text-2xl mb-1 border-2 p-1 hover:bg-green-300 hover:text-black hover:border-greenColor bg-greenColor focus:outline-none rounded-xl">Tuns - Marasti</button>
+          <!--<button @click="showMarasti" class="text-2xl mb-1 border-2 p-1 hover:bg-green-300 hover:text-black hover:border-greenColor bg-greenColor focus:outline-none rounded-xl">Tuns - Marasti</button>
           <div v-if="marasti" >
           <div class="flex hover:bg-greenColor rounded-full justify-center font-serif " v-for="(service2, index2) in services2" :key="index2">
            {{ `${service2.service} - ${service2.price}` }}
@@ -84,7 +84,7 @@
           <div class="flex hover:bg-greenColor rounded-full justify-center text-justify font-serif " v-for="(service4, index4) in services4" :key="index4">
             {{ `${service4.service} - ${service4.price}` }}
           </div>
-          </div>
+          </div>-->
         </div>
       </div>
     </div>

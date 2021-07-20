@@ -6,7 +6,7 @@ export default {
         },
         {
             service: 'Tratament Lifting Luxury',
-            price: '210 Lei'
+            price: '270 Lei'
         },
         {
             service: 'Tratament Personalizat',
