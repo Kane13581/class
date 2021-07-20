@@ -6,13 +6,13 @@
     <div v-else class="flex h-80 lg:h-96 justify-around md:justify-center items-center">
       <div class="flex 2xl:mt-32 2xl:border-8 md:mr-8 lg:mr-16 xl:mr-20 justify-center items-center">
         <button @click="showServicesM"
-                class="bg-gray-300 border-8 border-double border-black hover:bg-greenColor text-3xl rounded-md w-32 md:w-48 md:h-28 lg:w-52 lg:h-40 2xl:w-60 2xl:h-80  text-black font-serif">
+                class="bg-gray-300 border-8 border-double border-black hover:bg-greenColor sm:text-1xl md:text-3xl rounded-md w-32 md:w-48 md:h-28 lg:w-52 lg:h-40 text-black font-serif">
           Grigorescu
         </button>
       </div>
       <div class="flex 2xl:mt-32 2xl:border-8 justify-center items-center">
         <button @click="showServicesF"
-                class="bg-gray-300 hover:bg-greenColor text-3xl border-8 border-double border-black rounded-md w-32 md:w-48 md:h-28 lg:w-52 lg:h-40 2xl:w-60 2xl:h-80 text-black font-serif">
+                class="bg-gray-300 border-8 border-double border-black hover:bg-greenColor sm:text-2xl md:text-3xl rounded-md w-32 md:w-48 md:h-28 lg:w-52 lg:h-40 text-black font-serif">
          Marasti
         </button>
       </div>
